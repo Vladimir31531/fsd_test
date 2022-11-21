@@ -1,0 +1,19 @@
+@import "../../app/styles/globalStyles";
+
+.TasksFilters {
+    width: fit-content;
+
+    @include flex(flex, row, nowrap, center, center, unset);
+
+    button {
+        padding: 10px;
+        background-color: #fff;
+        border: 1px solid rgb(191, 191, 191);
+        cursor: pointer;
+
+        &.selected {
+            background-color: rgb(52, 67, 225);
+            color: #fff;
+        }
+    }
+}

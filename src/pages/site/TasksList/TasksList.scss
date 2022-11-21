@@ -1,0 +1,18 @@
+@import "../../../app/styles/globalStyles";
+
+
+
+.TasksList {
+    width: 100%;
+
+    @include flex(flex, column, nowrap, flex-start, center, unset);
+
+    h1 {
+        margin-bottom: 0.5em;
+        color: rgba(0, 0, 0, 0.85);
+        font-family: "Montserrat";
+        font-weight: 600;
+        font-size: 38px*$vw;
+        line-height: 30px*$vw;
+    }
+}
